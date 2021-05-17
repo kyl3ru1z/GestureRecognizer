@@ -128,7 +128,7 @@ def main():
         landmarkList = detector.findPosition(img)
 
         if len(landmarkList) != 0:
-            cv2.putText(img, detector.gestureRecognizer(landmarkList, "play"), (landmarkList[0][1]-50, landmarkList[0][2]-320), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
+            cv2.putText(img, detector.gestureRecognizer(landmarkList, "sign"), (landmarkList[0][1]-50, landmarkList[0][2]-320), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
 
         cv2.imshow("Hand Tracking", img)
         if cv2.waitKey(1) == ord('q'):

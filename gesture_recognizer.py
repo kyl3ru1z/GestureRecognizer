@@ -128,6 +128,8 @@ def main():
         landmarkList = detector.findPosition(img)
 
         if len(landmarkList) != 0:
+            # change the type of hand gestures you would like to identify by changing detector.gestureRecognizer(landmarklist, type)
+            # the second parameter type can be "count" to count the number of fingers, "sign" to detect different types of hand signs, and "play" to play rock paper scissors
             cv2.putText(img, detector.gestureRecognizer(landmarkList, "sign"), (landmarkList[0][1]-50, landmarkList[0][2]-320), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
 
         cv2.imshow("Hand Tracking", img)

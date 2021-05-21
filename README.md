@@ -10,4 +10,4 @@ Uses OpenCV and MediaPipe to detect hand gestures. This program is able to count
 - Implementing OpenCV to use the webcam and putting text on the screen.
 
 # Demo
-<img src="gif/sign.gif" height="400"><img src="gif/count.gif" height="400">
+<img src="gif/sign.gif" height="400">

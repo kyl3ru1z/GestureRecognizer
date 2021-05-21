@@ -9,3 +9,5 @@ Uses OpenCV and MediaPipe to detect hand gestures. This program is able to count
 - Utilizing the Mediapipe library to extracting the x and y position of every landmark on the hand and using that information to detect whether a finger is open or close.
 - Implementing OpenCV to use the webcam and putting text on the screen.
 
+# Demo
+<img src="gif/sign.gif" height="400">
